@@ -1,13 +1,7 @@
 import { createContext, useContext } from "react";
 
 export const TodoContext = createContext({
-    todoItems: [
-        {
-            id: 1234,
-            todo: "Hello Kajal...",
-            isCompleted: false
-        }
-    ],
+    todoItems: [],
     addTodo: () => {},
     deleteTodo: () => {},
     editTodo: () => {},
